@@ -14,9 +14,6 @@ module.exports = {
       screen:{
         '2xl': '1320px',
       },
-      translate: {
-        'custom' : '48 rem', 
-      },
     },
   },
   plugins: [],

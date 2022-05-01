@@ -39,8 +39,7 @@ const design2 = document.querySelector('#design2');
 const framework = document.querySelector('#framework');
 const framework2 = document.querySelector('#framework2');
 
-    //Custom Container
-const custom = document.querySelector('#custom-container');
+
 
 all_btn.addEventListener('click', function (){
     
@@ -60,8 +59,7 @@ all_btn.addEventListener('click', function (){
     design.classList.remove('hidden');
     design2.classList.remove('hidden');
 
-    // custom Container
-    custom.classList.remove('xl:h-[30rem]')
+
 });
 code_btn.addEventListener('click', function (){
     
@@ -81,8 +79,7 @@ code_btn.addEventListener('click', function (){
     design.classList.add('hidden');
     design2.classList.add('hidden');
 
-    // Custom Container
-    custom.classList.add('xl:h-[30rem]')
+ 
 });
 framework_btn.addEventListener('click', function (){
     
@@ -102,8 +99,7 @@ framework_btn.addEventListener('click', function (){
     design.classList.add('hidden');
     design2.classList.add('hidden');
 
-    // Custom Container
-    custom.classList.add('xl:h-[30rem]')
+ 
 });
 design_btn.addEventListener('click', function (){
     
@@ -123,8 +119,7 @@ design_btn.addEventListener('click', function (){
     design.classList.remove('hidden');
     design2.classList.remove('hidden');
     
-    // Custom Container
-    custom.classList.add('xl:h-[30rem]')
+ 
 });
 
 // work
