@@ -12,8 +12,11 @@ module.exports = {
         tertiary: '#F55353',
       },
       screen:{
-        '2xl': '1320px'
-      }
+        '2xl': '1320px',
+      },
+      translate: {
+        'custom' : '48 rem', 
+      },
     },
   },
   plugins: [],

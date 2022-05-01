@@ -24,3 +24,25 @@
     @apply -rotate-45;
 }
 
+.all-active > div {
+    @apply bg-second text-white border border-second;
+}
+
+.code-active > div {
+    @apply bg-second text-white border border-second;
+}
+.framework-active > div {
+    @apply bg-second text-white border border-second;
+}
+.design-active > div {
+    @apply bg-second text-white border border-second;
+}
+.all-active-work > div {
+    @apply bg-second text-white border border-second;
+}
+.code-active-work > div{
+    @apply bg-second text-white border border-second;
+}
+.design-active-work > div{
+    @apply bg-second text-white border border-second;
+}

@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./dist/output.css">
-    <title>Portfolio</title>
+    <title>Stefanus Petra</title>
 </head>
 
-<body>
+<body class="font-sans">
     <!-- Header Start -->
-    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+    <header class="bg-transparent absolute z-50 top-0 left-0 w-full flex items-center">
         <div class="container">
             <div class="flex items-center justify-between relative">
                 <div class="px-4">
@@ -21,9 +21,9 @@
                 <div class="flex item-center px-4 ">
                     <button id="hamburger" name="hamburger" type="button"
                         class="block absolute right-4 top-5 lg:hidden">
-                        <span class="hamburger-line origin-left transition duration-300 ease-in-out"></span>
-                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
-                        <span class="hamburger-line origin-left transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line origin-left transition duration-300 ease-in-out"> </span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"> </span>
+                        <span class="hamburger-line origin-left transition duration-300 ease-in-out"> </span>
                     </button>
                     <nav id="nav-Menu"
                         class="hidden absolute py-5 bg-white shadow-lg max-w-[250px] w-full right-4 top-full rounded-lg lg:block lg:static lg:max-w-full lg:shadow-none lg:bg-transparent ">
@@ -35,8 +35,7 @@
                                 <a href="#skills" class="text-base mx-8 text-primary group-hover:text-second">Skills</a>
                             </li>
                             <li class="group mb-4">
-                                <a href="#portfolio"
-                                    class="text-base mx-8 text-primary group-hover:text-second">Portfolio</a>
+                                <a href="#work" class="text-base mx-8 text-primary group-hover:text-second">Work</a>
                             </li>
                             <li class="group">
                                 <a href="#contact"
@@ -51,271 +50,359 @@
     <!-- Heaader Ends -->
 
     <!-- Home Section Start -->
-    <section id="home" class="py-36">
+    <section id="home" class="pt-36 pb-36 lg:pt-56 xl:pt-44  relative">
         <div class="container">
-            <div class="flex flex-wrap px-4 self-center md:relative md:px-12 lg:px-32 xl:px-40">
+            <div class="flex flex-wrap px-4 self-center md:relative md:px-12 lg:px-32">
                 <div class="w-full md:mt-10 ">
-                    <h1 class="font-semibold text-sm text-primary">
+                    <h1 class="font-semibold text-sm md:text-lg text-primary">
                         Hi Everyone 👋
                     </h1>
-                    <h2 class="font-bold text-2xl text-primary">
+                    <h2 class="font-bold text-2xl md:text-3xl text-primary">
                         I'm Stefanus Petra
                     </h2>
                 </div>
 
                 <!-- Profile Start -->
-                <div
-                    class="w-full my-8  md:my-0 md:absolute md:scale-150 md:translate-x-40 md:translate-y-10 lg:translate-x-20">
-                    <img src="/dist/img/profile.png" alt="profile" class=" max-w-full mx-auto hover:scale-110">
+                <div class="w-full md:w-64 md:absolute md:translate-x-96 lg:left-1/3 ">
+                    <img width="250px" src="./dist/img/profile.png" alt="profile" class="mx-auto">
                 </div>
                 <!-- Profile End -->
 
-                <div class="w-full mb-4 md:w-1/2 md:mt-4">
-                    <p class="font-normal text-sm text-justify text-primary">
+                <div class="w-full my-4 md:w-1/2 md:mt-4">
+                    <p class="font-normal text-sm md:text-lg text-justify text-primary">
                         Ini About Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Molestiae voluptas fugit impedit labore aspernatur incidunt ducimus
                         aliquam error delectus esse qui soluta, ab doloremque vero.
                     </p>
                 </div>
-
-
-                <!-- social media start -->
-
-                <div class="w-full h-8 flex mt-8 ">
-                    <!-- instagram -->
-                    <div class=" w-8 h-8 mr-4 hover:scale-125">
-                        <a href="https://instagram.com" target="_blank" class="text-primary">
-                            <svg role="img" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <title>Instagram</title>
-                                <path
-                                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z" />
-                            </svg>
-                        </a>
-                    </div>
-
-                    <!-- Github -->
-                    <div class=" w-8 h-8 mr-4 hover:scale-125">
-                        <a href="https://www.Github.com" target="_blank" class="text-primary">
-                            <svg role="img" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <title>GitHub</title>
-                                <path
-                                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-                            </svg>
-                        </a>
-                    </div>
-
-                    <!-- Linkedin -->
-                    <div class="w-8 h-8 mr-4 hover:scale-125">
-                        <a href="https://www.linkedin.com" target="_blank" class="text-primary">
-                            <svg role="img" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <title>LinkedIn</title>
-                                <path
-                                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
-                            </svg>
-                        </a>
-                    </div>
-
+                <div class="w-full flex relative text-primary my-2">
+                    <a class="mr-4 fill-current hover:scale-125" target="_blank"
+                        href="https://www.instagram.com/404_qazwsx/">
+                        <svg width="36" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <title>Instagram</title>
+                            <path
+                                d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z" />
+                        </svg>
+                    </a>
+                    <a class="mr-4 fill-current hover:scale-125" target="_blank" href="https://github.com/stefanuspet">
+                        <svg width="36" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <title>GitHub</title>
+                            <path
+                                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                        </svg>
+                    </a>
+                    <a class="mr-4 fill-current hover:scale-125" target="_blank"
+                        href="https://www.linkedin.com/in/stefanus-petra-b77250181">
+                        <svg width="36" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <title>LinkedIn</title>
+                            <path
+                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                        </svg>
+                    </a>
+                    <a class="mr-4 fill-current hover:scale-125" target="_blank"
+                        href="https://www.youtube.com/channel/UCC_hThDf7OCNwWqu8cbr4BA">
+                        <svg width="36" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <title>YouTube</title>
+                            <path
+                                d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                        </svg>
+                    </a>
                 </div>
-
-                <!-- social media end -->
             </div>
         </div>
+
     </section>
     <!-- Home Section End -->
 
+
+
     <!-- Skills Section Start -->
-    <section id="skills" class="py-36">
-        <div class="container ">
-            <div class="px-4 md:px-12 lg:px-32 xl:px-40">
+    <section id="skills" class="py-28">
+        <div id="custom-container" class="container">
+            <div class="px-4 md:px-12 lg:px-32 xl:px-40 ">
                 <div class="mb-4 w-full">
                     <h1 class="font-bold text-2xl text-primary">My Skills</h1>
                 </div>
-                <div class="w-full flex flex-wrap mx-4 ">
-                    <div class="text-white bg-second rounded-full px-4 mr-2 mb-2"><a href="#all">All</a></div>
-                    <div class="text-primary rounded-full border border-primary px-4 mr-2 mb-2 "><a href="#code">Code</a></div>
-                    <div class="text-primary rounded-full border border-primary px-4 mr-2 mb-2 "><a href="#framework">Framework</a></div>
-                    <div class="text-primary rounded-full border border-primary px-4 mr-2 mb-2 "><a href="#design">Design</a></div>
+                <div class="w-full flex flex-wrap ml-4 ">
+                    <button id="all-btn" type="button" name="filter" class="mr-4 py-1 all-active">
+                        <div class="border border-primary text-primary rounded-full px-4">
+                            <h1>All</h1>
+                        </div>
+                    </button>
+                    <button id="code-btn" type="button" name="filter" class="mr-4 py-1">
+                        <div class="border border-primary text-primary rounded-full px-4">
+                            <h1>Code</h1>
+                        </div>
+                    </button>
+                    <button id="framework-btn" type="button" name="filter" class="mr-4 py-1">
+                        <div class="border border-primary text-primary rounded-full px-4">
+                            <h1>Framework</h1>
+                        </div>
+                    </button>
+                    <button id="design-btn" type="button" name="filter" class="mr-4 py-1">
+                        <div class="border border-primary text-primary rounded-full px-4">
+                            <h1>Design</h1>
+                        </div>
+                    </button>
                 </div>
                 <div class="w-full ">
-                    <div class="grid grid-cols-2 gap-4 my-4 justify-items-center md:grid-cols-3 lg:grid-cols-4">
-                        <div>
+                    <div
+                        class="snap-x grid grid-rows-2 gap-4 grid-flow-col touch-auto overflow-auto my-4 justify-items-center md:grid-row-3 lg:grid-row-4">
+                        <div id="code">
                             <div class="h-44 w-40 relative">
                                 <div class="bg-tertiary h-40 w-36 rounded-lg p-3 absolute bottom-0 right-0">
                                 </div>
-                                <div class="bg-second h-40 w-36 rounded-lg p-3 absolute top-2 left-2 hover:translate-y-2 hover:translate-x-2 transition ease-in-out duration-200">
-                                    <div class="h-20 w-20 mx-auto">
-                                        <img src="./dist/img/github.png" alt="github">
+                                <div
+                                    class="bg-second h-40 w-36 rounded-lg p-3 absolute top-2 left-2 hover:translate-y-2 hover:translate-x-2 transition ease-in-out duration-200">
+                                    <div class="h-20 w-20 mx-auto  text-primary">
+                                        <svg class="fill-current" width="80" role="img" viewBox="0 0 24 24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <title>C</title>
+                                            <path
+                                                d="M16.5921 9.1962s-.354-3.298-3.627-3.39c-3.2741-.09-4.9552 2.474-4.9552 6.14 0 3.6651 1.858 6.5972 5.0451 6.5972 3.184 0 3.5381-3.665 3.5381-3.665l6.1041.365s.36 3.31-2.196 5.836c-2.552 2.5241-5.6901 2.9371-7.8762 2.9201-2.19-.017-5.2261.034-8.1602-2.97-2.938-3.0101-3.436-5.9302-3.436-8.8002 0-2.8701.556-6.6702 4.047-9.5502C7.444.72 9.849 0 12.254 0c10.0422 0 10.7172 9.2602 10.7172 9.2602z" />
+                                        </svg>
                                     </div>
                                     <div class="my-3">
-                                        <h1 class="font-semibold text-primary">Github</h1>
-                                        <h2 class="font-thin text-white">beginner</h2>
+                                        <h1 class="font-semibold text-primary">C</h1>
+                                        <h2 class="font-thin text-primary">beginner</h2>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div>
+                        <div id="code2">
                             <div class="h-44 w-40 relative">
                                 <div class="bg-tertiary h-40 w-36 rounded-lg p-3 absolute bottom-0 right-0">
                                 </div>
-                                <div class="bg-second h-40 w-36 rounded-lg p-3 absolute top-2 left-2 hover:translate-y-2 hover:translate-x-2 transition ease-in-out duration-200">
-                                    <div class="h-20 w-20 mx-auto">
-                                        <img src="./dist/img/github.png" alt="github">
+                                <div
+                                    class="bg-second h-40 w-36 rounded-lg p-3 absolute top-2 left-2 hover:translate-y-2 hover:translate-x-2 transition ease-in-out duration-200">
+                                    <div class="h-20 w-20 mx-auto text-primary">
+                                        <svg class="fill-current" width="80" role="img" viewBox="0 0 24 24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <title>HTML5</title>
+                                            <path
+                                                d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z" />
+                                        </svg>
                                     </div>
                                     <div class="my-3">
-                                        <h1 class="font-semibold text-primary">Github</h1>
-                                        <h2 class="font-thin text-white">beginner</h2>
+                                        <h1 class="font-semibold text-primary">HTML</h1>
+                                        <h2 class="font-thin text-primary">beginner</h2>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div>
+                        <div id="code3">
                             <div class="h-44 w-40 relative">
                                 <div class="bg-tertiary h-40 w-36 rounded-lg p-3 absolute bottom-0 right-0">
                                 </div>
-                                <div class="bg-second h-40 w-36 rounded-lg p-3 absolute top-2 left-2 hover:translate-y-2 hover:translate-x-2 transition ease-in-out duration-200">
-                                    <div class="h-20 w-20 mx-auto">
-                                        <img src="./dist/img/github.png" alt="github">
+                                <div
+                                    class="bg-second h-40 w-36 rounded-lg p-3 absolute top-2 left-2 hover:translate-y-2 hover:translate-x-2 transition ease-in-out duration-200">
+                                    <div class="h-20 w-20 mx-auto text-primary">
+                                        <svg class="fill-current" width="80" role="img" viewBox="0 0 24 24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <title>CSS3</title>
+                                            <path
+                                                d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z" />
+                                        </svg>
                                     </div>
                                     <div class="my-3">
-                                        <h1 class="font-semibold text-primary">Github</h1>
-                                        <h2 class="font-thin text-white">beginner</h2>
+                                        <h1 class="font-semibold text-primary">CSS</h1>
+                                        <h2 class="font-thin text-primary">beginner</h2>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div>
+                        <div id="code4">
                             <div class="h-44 w-40 relative">
                                 <div class="bg-tertiary h-40 w-36 rounded-lg p-3 absolute bottom-0 right-0">
                                 </div>
-                                <div class="bg-second h-40 w-36 rounded-lg p-3 absolute top-2 left-2 hover:translate-y-2 hover:translate-x-2 transition ease-in-out duration-200">
-                                    <div class="h-20 w-20 mx-auto">
-                                        <img src="./dist/img/github.png" alt="github">
+                                <div
+                                    class="bg-second h-40 w-36 rounded-lg p-3 absolute top-2 left-2 hover:translate-y-2 hover:translate-x-2 transition ease-in-out duration-200">
+                                    <div class="h-20 w-20 mx-auto text-primary">
+                                        <svg class="fill-current" width="80" role="img" viewBox="0 0 24 24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <title>JavaScript</title>
+                                            <path
+                                                d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z" />
+                                        </svg>
                                     </div>
                                     <div class="my-3">
-                                        <h1 class="font-semibold text-primary">Github</h1>
-                                        <h2 class="font-thin text-white">beginner</h2>
+                                        <h1 class="font-semibold text-primary">JavaScript</h1>
+                                        <h2 class="font-thin text-primary">beginner</h2>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        
-    
-    
+                        <div id="framework">
+                            <div class="h-44 w-40 relative">
+                                <div class="bg-tertiary h-40 w-36 rounded-lg p-3 absolute bottom-0 right-0">
+                                </div>
+                                <div
+                                    class="bg-second h-40 w-36 rounded-lg p-3 absolute top-2 left-2 hover:translate-y-2 hover:translate-x-2 transition ease-in-out duration-200">
+                                    <div class="h-20 w-20 mx-auto text-primary">
+                                        <svg class="fill-current" width="80" role="img" viewBox="0 0 24 24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <title>CodeIgniter</title>
+                                            <path
+                                                d="M11.466 0c.88 1.423-.28 3.306-1.207 4.358-.899 1.02-1.992 1.873-2.985 2.8-1.066.996-2.091 2.044-2.967 3.213-1.753 2.339-2.827 5.28-2.038 8.199.788 2.916 3.314 4.772 6.167 5.429-1.44-.622-2.786-2.203-2.79-3.82-.003-1.765 1.115-3.262 2.505-4.246-.167.632-.258 1.21.155 1.774a1.68 1.68 0 0 0 1.696.642c1.487-.326 1.556-1.96.674-2.914-.872-.943-1.715-2.009-1.384-3.377.167-.685.588-1.328 1.121-1.787-.41 1.078.755 2.14 1.523 2.67 1.332.918 2.793 1.612 4.017 2.688 1.288 1.132 2.24 2.661 2.047 4.435-.208 1.923-1.736 3.26-3.45 3.936 3.622-.8 7.365-3.61 7.44-7.627.093-3.032-1.903-5.717-5.158-7.384.19.48.074.697-.058.924-.55.944-2.082 1.152-2.835.184-1.205-1.548.025-3.216.197-4.855.215-2.055-1.073-4.049-2.67-5.242z" />
+                                        </svg>
+                                    </div>
+                                    <div class="my-3">
+                                        <h1 class="font-semibold text-primary">CodeIgniter</h1>
+                                        <h2 class="font-thin text-primary">beginner</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="framework2">
+                            <div class="h-44 w-40 relative">
+                                <div class="bg-tertiary h-40 w-36 rounded-lg p-3 absolute bottom-0 right-0">
+                                </div>
+                                <div
+                                    class="bg-second h-40 w-36 rounded-lg p-3 absolute top-2 left-2 hover:translate-y-2 hover:translate-x-2 transition ease-in-out duration-200">
+                                    <div class="h-20 w-20 mx-auto text-primary">
+                                        <svg class="fill-current" width="80" role="img" viewBox="0 0 24 24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <title>Tailwind CSS</title>
+                                            <path
+                                                d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z" />
+                                        </svg>
+                                    </div>
+                                    <div class="my-3">
+                                        <h1 class="font-semibold text-primary">Tailwind</h1>
+                                        <h2 class="font-thin text-primary">beginner</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="design">
+                            <div class="h-44 w-40 relative">
+                                <div class="bg-tertiary h-40 w-36 rounded-lg p-3 absolute bottom-0 right-0">
+                                </div>
+                                <div
+                                    class="bg-second h-40 w-36 rounded-lg p-3 absolute top-2 left-2 hover:translate-y-2 hover:translate-x-2 transition ease-in-out duration-200">
+                                    <div class="h-20 w-20 mx-auto text-primary">
+                                        <svg class="fill-current" width="80" role="img" viewBox="0 0 24 24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <title>Figma</title>
+                                            <path
+                                                d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.02 3.019 3.02h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.503-2.047 4.539-4.563 4.539zm-.024-7.51a3.023 3.023 0 0 0-3.019 3.019c0 1.665 1.365 3.019 3.044 3.019 1.705 0 3.093-1.376 3.093-3.068v-2.97H8.148zm7.704 0h-.098c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h.098c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49zm-.097-7.509c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h.098c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-.098z" />
+                                        </svg>
+                                    </div>
+                                    <div class="my-3">
+                                        <h1 class="font-semibold text-primary">Figma</h1>
+                                        <h2 class="font-thin text-primary">beginner</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="design2">
+                            <div class="h-44 w-40 relative">
+                                <div class="bg-tertiary h-40 w-36 rounded-lg p-3 absolute bottom-0 right-0">
+                                </div>
+                                <div
+                                    class="bg-second h-40 w-36 rounded-lg p-3 absolute top-2 left-2 hover:translate-y-2 hover:translate-x-2 transition ease-in-out duration-200">
+                                    <div class="h-20 w-20 mx-auto text-primary">
+                                        <svg class="fill-current" width="80" role="img" viewBox="0 0 24 24"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <title>Canva</title>
+                                            <path
+                                                d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zM6.962 7.68c.754 0 1.337.549 1.405 1.2.069.583-.171 1.097-.822 1.406-.343.171-.48.172-.549.069-.034-.069 0-.137.069-.206.617-.514.617-.926.548-1.508-.034-.378-.308-.618-.583-.618-1.2 0-2.914 2.674-2.674 4.629.103.754.549 1.646 1.509 1.646.308 0 .65-.103.96-.24.5-.264.799-.47 1.097-.8-.073-.885.704-2.046 1.851-2.046.515 0 .926.205.96.583.068.514-.377.582-.514.582s-.378-.034-.378-.17c-.034-.138.309-.07.275-.378-.035-.206-.24-.274-.446-.274-.72 0-1.131.994-1.029 1.611.035.275.172.549.447.549.205 0 .514-.31.617-.755.068-.308.343-.514.583-.514.102 0 .17.034.205.171v.138c-.034.137-.137.548-.102.651 0 .069.034.171.17.171.092 0 .436-.18.777-.459.117-.59.253-1.298.253-1.357.034-.24.137-.48.617-.48.103 0 .171.034.205.171v.138l-.136.617c.445-.583 1.097-.994 1.508-.994.172 0 .309.102.309.274 0 .103 0 .274-.069.446-.137.377-.309.96-.412 1.474 0 .137.035.274.207.274.171 0 .685-.206 1.096-.754l.007-.004c-.002-.068-.007-.134-.007-.202 0-.411.035-.754.104-.994.068-.274.411-.514.617-.514.103 0 .205.069.205.171 0 .035 0 .103-.034.137-.137.446-.24.857-.24 1.269 0 .24.034.582.102.788 0 .034.035.069.07.069.068 0 .548-.445.89-1.028-.308-.206-.48-.549-.48-.96 0-.72.446-1.097.858-1.097.343 0 .617.24.617.72 0 .308-.103.65-.274.96h.102a.77.77 0 0 0 .584-.24.293.293 0 0 1 .134-.117c.335-.425.83-.74 1.41-.74.48 0 .924.205.959.582.068.515-.378.618-.515.618l-.002-.002c-.138 0-.377-.035-.377-.172 0-.137.309-.068.274-.376-.034-.206-.24-.275-.446-.275-.686 0-1.13.891-1.028 1.611.034.275.171.583.445.583.206 0 .515-.308.652-.754.068-.274.343-.514.583-.514.103 0 .17.034.205.171 0 .069 0 .206-.137.652-.17.308-.171.48-.137.617.034.274.171.48.309.583.034.034.068.102.068.102 0 .069-.034.138-.137.138-.034 0-.068 0-.103-.035-.514-.205-.72-.548-.789-.891-.205.24-.445.377-.72.377-.445 0-.89-.411-.96-.926a1.609 1.609 0 0 1 .075-.649c-.203.13-.422.203-.623.203h-.17c-.447.652-.927 1.098-1.27 1.303a.896.896 0 0 1-.377.104c-.068 0-.171-.035-.205-.104-.095-.152-.156-.392-.193-.667-.481.527-1.145.805-1.453.805-.343 0-.548-.206-.582-.55v-.376c.102-.754.377-1.2.377-1.337a.074.074 0 0 0-.069-.07c-.24 0-1.028.824-1.166 1.373l-.103.445c-.068.309-.377.515-.582.515-.103 0-.172-.035-.206-.172v-.137l.046-.233c-.435.31-.87.508-1.075.508-.308 0-.48-.172-.514-.412-.206.274-.445.412-.754.412-.352 0-.696-.24-.862-.593-.244.275-.523.553-.852.764-.48.309-1.028.549-1.68.549-.582 0-1.097-.309-1.371-.583-.412-.377-.651-.96-.686-1.509-.205-1.68.823-3.84 2.4-4.8.378-.205.755-.343 1.132-.343zm9.77 3.291c-.104 0-.172.172-.172.343 0 .274.137.583.309.755a1.74 1.74 0 0 0 .102-.583c0-.343-.137-.515-.24-.515z" />
+                                        </svg>
+                                    </div>
+                                    <div class="my-3">
+                                        <h1 class="font-semibold text-primary">Canva</h1>
+                                        <h2 class="font-thin text-primary">beginner</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Skills Section End -->
-    
-    
-    <!-- Portfolio Start -->
-    <section id="portfolio" class="py-36">
-        <div class="container ">
-            <div class="px-4 md:px-12 lg:px-32 xl:px-40">
-                <div class="mb-4 w-full">
-                    <h1 class="font-bold text-2xl text-primary">Recenly Project</h1>
+
+    <!-- Work start -->
+    <Section id="work">
+        <div class="container pb-8 py-24">
+            <div class="px-4 mb-8  md:px-12 lg:px-32 xl:px-40">
+                <div class="py-4">
+                    <h1 class="font-bold text-2xl text-primary">Work</h1>
+                    <h2 class="font-bold text-sm text-primary">My Recent Work</h2>
                 </div>
-                <div class="w-full flex flex-wrap mx-4 ">
-                    <div class="text-white bg-second rounded-full px-4 mr-2 mb-2"><a href="#all">All</a></div>
-                    <div class="text-primary rounded-full border border-primary px-4 mr-2 mb-2 "><a href="#code">Code</a></div>
-                    <div class="text-primary rounded-full border border-primary px-4 mr-2 mb-2 "><a href="#framework">Framework</a></div>
-                    <div class="text-primary rounded-full border border-primary px-4 mr-2 mb-2 "><a href="#design">Design</a></div>
-                </div>
-                <div class="w-full ">
-                    <div class="grid grid-cols-2 gap-4 my-4 justify-items-center md:grid-cols-3 lg:grid-cols-4">
-                        <div>
-                            <div class="h-44 w-40 relative">
-                                <div class="bg-tertiary h-40 w-36 rounded-lg p-3 absolute bottom-0 right-0">
-                                </div>
-                                <div class="bg-second h-40 w-36 rounded-lg p-3 absolute top-2 left-2 hover:translate-y-2 hover:translate-x-2 transition ease-in-out duration-200">
-                                    <div class="h-20 w-20 mx-auto">
-                                        <img src="./dist/img/github.png" alt="github">
-                                    </div>
-                                    <div class="my-3">
-                                        <h1 class="font-semibold text-primary">Github</h1>
-                                        <h2 class="font-thin text-white">beginner</h2>
-                                    </div>
-                                </div>
-                            </div>
+                <button id="all-btn-work" type="button" name="filter" class="mx-4 py-1 all-active-work">
+                    <div class="border border-primary text-primary rounded-full px-4">
+                        <h1>All</h1>
+                    </div>
+                </button>
+                <button id="code-btn-work" type="button" name="filter" class="mr-4 py-1">
+                    <div class="border border-primary text-primary rounded-full px-4">
+                        <h1>Code</h1>
+                    </div>
+                </button>
+                <button id="design-btn-work" type="button" name="filter" class="mr-4 py-1">
+                    <div class="border border-primary text-primary rounded-full px-4">
+                        <h1>Design</h1>
+                    </div>
+                </button>
+            </div>
+            <div class="md:px-12 lg:px-32 xl:px-40 -mt-2 ml-2 ">
+                <div class="h-[23rem] w-80 relative">
+                    <div class="bg-tertiary h-80 w-72 rounded-lg p-3 absolute bottom-7 right-3">
+                    </div>
+                    <div
+                        class="bg-second h-80 w-72 rounded-lg p-3 absolute top-2 left-2 hover:translate-y-3 hover:translate-x-3 transition ease-in-out duration-200">
+                        <div class="mt-2 h-52 w-60 mx-auto bg-white rounded-md pt-20">
+                            <h1 class="text-center text-3xl font-bold text-second ">ComingSoon</h1>
+                            <h2 class="text-center text-3xl font-bold text-primary -translate-y-10">ComingSoon</h2>
                         </div>
-                        <div>
-                            <div class="h-44 w-40 relative">
-                                <div class="bg-tertiary h-40 w-36 rounded-lg p-3 absolute bottom-0 right-0">
-                                </div>
-                                <div class="bg-second h-40 w-36 rounded-lg p-3 absolute top-2 left-2 hover:translate-y-2 hover:translate-x-2 transition ease-in-out duration-200">
-                                    <div class="h-20 w-20 mx-auto">
-                                        <img src="./dist/img/github.png" alt="github">
-                                    </div>
-                                    <div class="my-3">
-                                        <h1 class="font-semibold text-primary">Github</h1>
-                                        <h2 class="font-thin text-white">beginner</h2>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="my-2">
+                            <h1 class="font-bold text-primary ml-4">ComingSoon</h1>
+                            <button class="bg-white p-2 rounded-3xl block mx-auto mt-2 cursor-not-allowed">
+                                <h1 class="text-primary font-medium ">Details</h1>
+                            </button>
                         </div>
-                        <div>
-                            <div class="h-44 w-40 relative">
-                                <div class="bg-tertiary h-40 w-36 rounded-lg p-3 absolute bottom-0 right-0">
-                                </div>
-                                <div class="bg-second h-40 w-36 rounded-lg p-3 absolute top-2 left-2 hover:translate-y-2 hover:translate-x-2 transition ease-in-out duration-200">
-                                    <div class="h-20 w-20 mx-auto">
-                                        <img src="./dist/img/github.png" alt="github">
-                                    </div>
-                                    <div class="my-3">
-                                        <h1 class="font-semibold text-primary">Github</h1>
-                                        <h2 class="font-thin text-white">beginner</h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="h-44 w-40 relative">
-                                <div class="bg-tertiary h-40 w-36 rounded-lg p-3 absolute bottom-0 right-0">
-                                </div>
-                                <div class="bg-second h-40 w-36 rounded-lg p-3 absolute top-2 left-2 hover:translate-y-2 hover:translate-x-2 transition ease-in-out duration-200">
-                                    <div class="h-20 w-20 mx-auto">
-                                        <img src="./dist/img/github.png" alt="github">
-                                    </div>
-                                    <div class="my-3">
-                                        <h1 class="font-semibold text-primary">Github</h1>
-                                        <h2 class="font-thin text-white">beginner</h2>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-    
-    
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- Portfolio End -->
+    </Section>
+    <!-- work ends -->
 
-    <!-- Contact Start -->
-    <section>
+    <!-- Contact start -->
+    <section id="contact" class="pb-36 xl:pt-10">
         <div class="container">
             <div>
-                <h1>Contact Me</h1>
-                <!-- email start -->
-                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Gmail</title><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
-                <!-- email end -->
-                <!-- whatsapp start -->
-                <!-- whatsapp end -->
+                <h1 class="text-2xl lg:text-4xl font-bold text-primary text-center mt-24 hover:text-second">Contact</h1>
+            </div>
+            <div class="flex flex-wrap my-16 justify-center mb-20">
+                <a class="text-primary hover:text-second" target="_blank" href="mailto:stefanuspetra.p@gmail.com">
+                    <svg class="fill-current mx-4 hover:scale-125 hover:animate-bounce" width="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Gmail</title><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
+                </a>
+                <a class="text-primary hover:text-second" target="_blank" href="https://wa.me/6282138566615">
+                    <svg class="fill-current mx-4 hover:scale-125 hover:animate-bounce" width="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>WhatsApp</title><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                </a>
+                <a class="text-primary hover:text-second" target="_blank" href="https://line.me/ti/p/~petrapambudi">
+                    <svg class="fill-current mx-4 hover:scale-125 hover:animate-bounce" width="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LINE</title><path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63h2.386c.346 0 .627.285.627.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63.346 0 .628.285.628.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.282.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/></svg>
+                </a>
+                <a class="text-primary hover:text-second" target="_blank" href="https://t.me/petrapam">
+                    <svg class="fill-current mx-4 hover:scale-125 hover:animate-bounce" width="50" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Telegram</title><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+                </a>
             </div>
         </div>
     </section>
-    <!-- Contact End -->
-    
+    <!-- Contact Ends -->
+
     <!-- Footer start -->
     <section>
         <div class="bg-primary">
             <div class=" text-white h-auto p-1">
-                <p class="text-center text-lg ">Create with <span class="text-red-500">♥</span> by <span class="text-second">Stefanus Petra</span> using <Span class="text-tertiary">Tailwind</Span></p>
+                <p class="text-center text-lg ">Create with <span class="text-red-500">♥</span> by <span
+                        class="text-second">Stefanus Petra</span> using <Span class="text-second">Tailwind</Span></p>
                 <p class="text-center ">Copyright © 2022</p>
             </div>
+
         </div>
     </section>
     <!-- footer End -->
